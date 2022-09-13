@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&family=Noto+Serif+KR:wght@200;300;500&display=swap');
+
+:root {
+    --body-font: 'Nanum Myeongjo', serif;
+    --title-font: 'Noto Serif KR', serif;
+    --biggest-font-size: 3.5rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+}
+
+body {
+    margin-left: 15px;
+    font-family: var(--title-font);
+    font-size: var(--normal-font-size);
+    color: var(--text-black-color);
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+}
+
+p {
+    font-size: var(--normal-font-size);
+}
